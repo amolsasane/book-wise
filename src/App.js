@@ -1,6 +1,6 @@
 import "./styles.css";
 import { useState } from "react";
-import bookImg from "/src/images/book.svg";
+import bookImg from "./images/book.svg";
 
 const library = {
   JavaScript: [
