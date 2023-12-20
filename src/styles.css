@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap");
+
+:root {
+  --primary-color: #22333b;
+  --secondary-color: #36464d;
+}
+
+.App {
+  font-family: "Lexend Deca", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+body {
+  background-color: var(--primary-color);
+}
+
+.nav {
+  background-color: var(--secondary-color);
+  padding: 3px;
+  border-radius: 1rem;
+}
+
+.flexContainer {
+  max-width: fit-content;
+  margin: auto;
+  display: flex;
+}
+
+.img {
+  max-width: 28px;
+}
+
+.navTitle {
+  font-size: 2rem;
+}
+
+.header {
+  margin: 2rem;
+}
+
+.headerHeading {
+  font-size: 20px;
+}
+
+.button {
+  margin: 0 6px;
+  padding: 7px;
+  font-size: 1rem;
+  color: white;
+  border-radius: 10px;
+  background-color: #36464d;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.button.active {
+  background-color: var(--primary-color);
+}
+
+.booksList {
+  list-style: none;
+  background-color: var(--secondary-color);
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 1rem auto;
+  width: 600px;
+}
+
+.booksList .book {
+  margin: 1rem auto;
+  text-align: left;
+  background-color: #25363e;
+  padding: 7px;
+  border-radius: 10px;
+}
+
+.highlight {
+  color: #6c757d;
+}
+
+.footer {
+  background-color: var(--secondary-color);
+  padding: 3px;
+  margin-top: 3rem;
+  border-radius: 1rem;
+}
+.footer .icon {
+  color: white;
+  font-size: 1.5rem;
+}
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+.footer ul li {
+  display: inline;
+  padding: 1rem;
+}
